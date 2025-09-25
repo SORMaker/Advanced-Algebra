@@ -22,12 +22,12 @@ This is a [Docsify](https://docsify.js.org/#/) generated documentation website.\
 3. Verify the Installation
    ```bash
    node -v
-   # You should see the output.
+   # You may see the output.
    v22.20.0
    ```
    ```bash
    npm -v
-   # You should see the output.
+   # You may see the output.
    11.6.1
    ```
 
@@ -35,19 +35,24 @@ This is a [Docsify](https://docsify.js.org/#/) generated documentation website.\
 1. Open a new terminal.
 2. Run the following command:
    ```bash
+   # if you use Linux or MacOS, Please remember to add sudo before the command.
    npm install -g docsify-cli
    ```
 3. Verify the Installation
    ```bash
    docsify -v
-   # You should see the output.
+   # You may see the output.
    4.4.4
    ```
 ## Run the Documentation Website
-1. Open your terminal.
-2. Navigate to the root directory of the documentation website.
-3. Run the following command:
+1. Open a new terminal.
+2. Clone the repository.
+   ```bash
+   git clone https://github.com/SORMaker/Advanced-Algebra.git
+   ```
+3. Navigate to the root directory of the repository.
+4. Run the following command:
    ```bash
    docsify serve .
    ```
-4. Open your browser and go to `http://localhost:3000`.
+5. Open your browser and go to `http://localhost:3000`.
