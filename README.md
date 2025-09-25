@@ -3,14 +3,14 @@
 北京大学数学系前代数小组. (2019). *高等代数* (第五版). 高等教育出版社. ISBN: 978-7-04-050733-1.
 
 # Contents
-- [第二章 行列式](Determinants.md)
-- [第三章 线性方程组](System%20of%20Linear%20Equations.md)
-- [第四章 矩阵](Matrices.md)
-- [第五章 二次型](Quadratic%20Form.md)
-- [第六章 线性空间](Vector%20Space.md)
-- [第七章 线性变换](Linear%20Transformation.md)
-- [第八章 λ矩阵](λ%20Matrices.md)
-- [第九章 欧几里得空间](Euclidean%20Space.md)
+- [Chapter2 Determinants](Determinants.md)
+- [Chapter3 System of Linear Equations](System%20of%20Linear%20Equations.md)
+- [Chapter4 Matrices](Matrices.md)
+- [Chapter5 Quadratic Form](Quadratic%20Form.md)
+- [Chapter6 Vector Space](Vector%20Space.md)
+- [Chapter7 Linear Transformation](Linear%20Transformation.md)
+- [Chapter8 λ Matrices](λ%20Matrices.md)
+- [Chapter9 Euclidean Space](Euclidean%20Space.md)
   
 # Usage
 
