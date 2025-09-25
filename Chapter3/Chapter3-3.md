@@ -11,7 +11,7 @@ $$
 For any n-dimension vector $\alpha=(a_1,a_2,\cdots,a_n)$ is a linear combination of the set of vectors:
 
 $$
-\left\{ \begin{array}{} 
+\left \{ \begin{array}{} 
 \varepsilon_1=(1,0,\cdots,0),\\
 \varepsilon_2=(0,1,\cdots,0),\\
 \cdots\\
@@ -131,7 +131,7 @@ If we have a linearly independent n-dimensional set of vectors $\beta_i=(b_{i1},
 According to the n+1-dimensional set of vectors, we have n+1 equations:
 
 $$
-\left\{ \begin{array}{} 
+\left \{ \begin{array}{} 
 a_{11}x_1 + a_{21}x_2 + \cdots + a_{s1}x_s = 0,\\
 a_{12}x_1 + a_{22}x_2 + \cdots + a_{s2}x_s = 0,\\
 \cdots\\
@@ -140,7 +140,7 @@ a_{1,n+1}x_1 + a_{2,n+1}x_2 + \cdots + a_{s,n+1}x_s=0.
 \end{array} \right.(2)
 $$
 
-Obviously, if the linear equations system $(1)$ only has a zero solution, then the linear equations system  $(2)$﻿  only has a zero solution.
+Obviously, if the linear equations system $(1)$ only has a zero solution, then the linear equations system  $(2)$  only has a zero solution.
 
 ## Theorem 2
 
