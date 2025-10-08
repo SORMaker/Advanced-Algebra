@@ -1,1 +1,3 @@
-todo...
+- [Matrix Operations](Chapter4/Chapter4-2.md)
+- [Determinant and Rank of a Matrix Product](Chapter4/Chapter4-3.md)
+- [Matrix Inverse](Chapter4/Chapter4-4.md)
