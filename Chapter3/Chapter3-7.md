@@ -5,8 +5,10 @@
 Suppose
 
 $$
+\begin{aligned}
 f(x)=a_0x^{n} + a_1x^{n-1} + \cdots + a_n \quad (1)\\
-g(x)=b_0x^{m} + b_1x^{m-1} + \cdots + b_m \quad (2)\\
+g(x)=b_0x^{m} + b_1x^{m-1} + \cdots + b_m \quad (2)
+\end{aligned}
 $$
 
 $a_0$ and $b_0$ are not all zero.
@@ -24,7 +26,10 @@ $\Longrightarrow$
 If $f(x)$ and $g(x)$ have a non-constant common divisor $d(x)$, then we know 
 
 $$
-f(x) = d(x)f_1(x),\quad g(x)=d(x)g_1(x)
+\begin{aligned}
+f(x) = d(x)f_1(x)\\
+g(x)=d(x)g_1(x)
+\end{aligned}
 $$
 
 And the $deg(f_1(x)) < n,\ deg(g_1(x))<m$.
@@ -48,7 +53,10 @@ Thus, $f_1(x)$ is a common divisor of $f(x)$  and $g(x)$. Since we have already 
 We use the method of undetermined coefficients to define the general forms of the polynomials:
 
 $$
-u(x)=\sum^{m-1}_{i=0}u_ix^{m-1-i},\quad v(x)=\sum^{n-1}_{i=0}v_ix^{n-1-i}.
+\begin{aligned}
+u(x)=\sum^{m-1}_{i=0}u_ix^{m-1-i},\\
+v(x)=\sum^{n-1}_{i=0}v_ix^{n-1-i}.
+\end{aligned}
 $$
 
 Substituting these into the equation $u(x)f(x)=v(x)g(x)$, we get:
@@ -112,7 +120,7 @@ $$
 
 ## Theorem 10
 
-Let $f(x)=\sum^{n}_{i=0}a_ix^{n-i}$ and $g(x)= \sum^m_{i=0}b_ix^{m-i}$ be two polynomials over a field P, with m,n > 0. Then, the resultant $R(f,g)=0$ if and only if either:
+Let $f(x)=\sum^{n}_{i=0}a_ix^{n-i}$ and $g(x)= \sum^m_{i=0}b_ix^{m-i}$ be two polynomials over a field $P$, with $m,n > 0$. Then, the resultant $R(f,g)=0$ if and only if either:
 
 1. $f(x)$ and $g(x)$ have a common divisor of degree greater than 0 in P[x], or
 2. $a_0$ and $b_0$ are both zero.
@@ -123,23 +131,23 @@ $\Longrightarrow$
 
 Assume $R(f,g) = 0$. If at least one of $f(x)$ or $g(x)$ is the zero polynomial, the conclusion holds. If neither is the zero polynomial, and if $a_0 = b_0 = 0$, the conclusion holds by the theorem’s statement.
 
-Otherwise, $a_0$ and $b_0$ are not both zero.From R(f,g)=0, we know that the corresponding homogeneous system of linear equations has a non-trivial solution. This means there exist polynomials u(x) and v(x), not both zero, satisfying the equation u(x)f(x)=v(x)g(x).
+Otherwise, $a_0$ and $b_0$ are not both zero.From $R(f,g)=0$, we know that the corresponding homogeneous system of linear equations has a non-trivial solution. This means there exist polynomials $u(x)$ and $v(x)$, not both zero, satisfying the equation $u(x)f(x)=v(x)g(x)$.
 
-Since we are in the case where f(x) and g(x) are non-zero, it follows that both u(x) and v(x) must also be non-zero. Furthermore, by the construction of the system, we have deg(u)<m and deg(v)<n.
+Since we are in the case where $f(x)$ and $g(x)$ are non-zero, it follows that both $u(x)$ and $v(x)$ must also be non-zero. Furthermore, by the construction of the system, we have $deg(u)<m$ and $deg(v)<n$.
 
-According to the previous lemma, it follows that f(x) and g(x) have a common divisor of degree greater than 0.
+According to the previous lemma, it follows that $f(x)$ and $g(x)$ have a common divisor of degree greater than 0.
 
 $\Longleftarrow$
 
-If $a_0=b_0=0$,then the first column of the resultant matrix R(f,g) consists entirely of zeros. Therefore, it is natural that R(f,g)=0.
+If $a_0=b_0=0$,then the first column of the resultant matrix $R(f,g)$ consists entirely of zeros. Therefore, it is natural that $R(f,g)=0$.
 
-If $a_0$ and $b_0$ are not all zero, but at least one of f(x) or g(x) is the zero polynomial, then there will be entire rows of zeros in the resultant R(f,g). Naturally, R(f,g)=0.
+If $a_0$ and $b_0$ are not all zero, but at least one of $f(x)$ or $g(x)$ is the zero polynomial, then there will be entire rows of zeros in the resultant $R(f,g)$. Naturally, $R(f,g)=0$.
 
-If $a_0$ and $b_0$ are not all zero, neither f(x) nor g(x) is the zero polynomial, and they have a common divisor of degree greater than 0, then by the lemma, we know there exist non-zero polynomials u(x) and v(x) satisfying u(x)f(x)=v(x)g(x), with $deg(u)<m$ and $deg(v)<n$.
+If $a_0$ and $b_0$ are not all zero, neither $f(x)$ nor $g(x)$ is the zero polynomial, and they have a common divisor of degree greater than 0, then by the lemma, we know there exist non-zero polynomials $u(x)$ and $v(x)$ satisfying $u(x)f(x)=v(x)g(x)$, with $deg(u)<m$ and $deg(v)<n$.
 
-This implies that the corresponding homogeneous system of linear equations has a non-trivial solution, and therefore the determinant of its coefficient matrix must be zero. Since the resultant R(f, g) is simply this determinant multiplied by a factor (e.g., $(-1)^n$), the resultant is also zero.
+This implies that the corresponding homogeneous system of linear equations has a non-trivial solution, and therefore the determinant of its coefficient matrix must be zero. Since the resultant $R(f, g)$ is simply this determinant multiplied by a factor (e.g., $(-1)^n$), the resultant is also zero.
 
-Another form of Theorem 10 is: The resultant R(f, g) = 0 if and only if f(x) and g(x) have a common root in the complex field, or their leading coefficients are both zero.
+Another form of Theorem 10 is: The resultant $R(f, g)$ = 0 if and only if $f(x)$ and $g(x)$ have a common root in the complex field, or their leading coefficients are both zero.
 
 One of the applications of the resultant is to solve systems of higher-degree bivariate equations of the form:
 
