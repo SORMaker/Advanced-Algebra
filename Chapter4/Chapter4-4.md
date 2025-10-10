@@ -13,12 +13,12 @@ Let $A_{ij}$ be the cofactor of the element $a_{ij}$ in matrix A.
 Then the matrix $A^*$ is called the adjugate matrix of A.
 
 $$
-A^*=\begin{bmatrix} 
+A^*=\left. \begin{bmatrix} 
 A_{11} & A_{21} & \cdots & A_{n1}\\
 A_{12} & A_{22} & \cdots & A_{n2}\\
 \vdots & \vdots & & \vdots \\
 A_{1n} & A_{2n} & \cdots & A_{nn}
-\end{bmatrix}
+\end{bmatrix} \right.
 $$
 
 ## Theorem 3
@@ -27,12 +27,14 @@ The matrix A is invertible if and only if A is non-degenerate, and $A^{-1}=\frac
 
 ### Proof
 
-$A A^* =A^* A = \begin{bmatrix}
+$$
+A A^* =A^* A =\left[ \begin{array}{}
 d & 0 & \cdots & 0\\
 0 & d & \cdots & 0\\
 \vdots & \vdots & & \vdots\\
 0 & 0 & \cdots & d
- \end{bmatrix} = dE,d = |A|.(1)$
+ \end{array} \right] = dE,d = |A|.(1)
+ $$
 
 $\Longrightarrow$
 

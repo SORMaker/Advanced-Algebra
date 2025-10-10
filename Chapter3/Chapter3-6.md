@@ -83,17 +83,21 @@ If we set all constant terms to zero, then we get a homogeneous linear system, a
 
 1. The difference between two solutions of a system of linear equations is a solution to its derived system.
     
-    $$
-    Ak=b,Al=b\\
-    A(k-l)=0
-    $$
+$$
+\begin{aligned}
+Ak=b,Al=b.\\
+A(k-l)=0
+\end{aligned}
+$$
     
 2. The sum of a solution to a system of linear equations and a solution to its derived system is still a solution to the same system of linear equations.
     
-    $$
-    Ak=b,Al=0\\
-    A(k+l)=b
-    $$
+$$
+\begin{aligned}
+Ak=b,Al=0.\\
+A(k+l)=b
+\end{aligned}
+$$
     
 
 ## Theorem 9
@@ -108,18 +112,34 @@ For any $\gamma \in S$, we know $\gamma-\gamma_0$ is a solution to the derived s
 
 This shows that S is a subset of $\set{\gamma_0 + \eta|\text{where }\eta \text{ is a solution to the derived system}}$.
 
-let $\eta$ be any solution to the derived system. We know that $\gamma_0 + \eta_0$ is a solution to the original system of equations. Therefore, $\gamma_0 + \eta_0 \in S$, which means that S contains the set $\set{\gamma_0 + \eta|\text{where }\eta \text{ is a solution to the derived system}}$
+let $\eta_0$ be any solution to the derived system. We know that $\gamma_0 + \eta_0$ is a solution to the original system of equations. Therefore, $\gamma_0 + \eta_0 \in S$, which means that S contains the set $\set{\gamma_0 + \eta|\text{where }\eta \text{ is a solution to the derived system}}$
 
 So, $S = \set{\gamma_0 + \eta|\text{where }\eta \text{ is a solution to the derived system}}$
+
+This theorem tells us that any solution to $(*)$ can be expressed as a linear combination of $\gamma_0$ and a solution to the derived system.
+
+Therefore, as $\eta$ ranges over the entire solution set of the derived system, the expression $\gamma_0 + \eta$ generates the entire solution set of $(*)$.
+
+If $\set{\eta_1, \eta_2, \cdots, \eta_{n-r}}$ is a fundamental system of solutions for the derived system, and $\gamma_0$ is a particular solution of $(*)$, then the solution set S of the $(*)$ is given by:
+
+$$
+S = \set{\gamma_0 + \eta_1, \gamma_0 + \eta_2, \cdots, \gamma_0 + \eta_{n-r}}
+$$
+
 
 ## Corollary
 
 Under the condition that $(*)$ has solutions, it has a unique solution if and only if its derived system has only the trivial solution.
 
-$\Leftarrow$
+$\Longrightarrow$
 
-If $(*)$ has two different solutions, then the subtraction of them is a non-trivial solution of its derived system. So, if the derived system only has a trivial solution, then $(*)$ has a unique solution.
+$(*)$ has a unique solution $\Rightarrow$ S = $\set{\gamma_0}$ $\Rightarrow$ $k_i = 0 (i=1,2,\cdots,n-r)$ $\Rightarrow$ its derived system has only the trivial solution.
 
-$\Rightarrow$
+> If the derived system has a non-trivial solution, then we add the non-trivial solution to a solution of $(*)$, and then we get another solution of $(*)$, which means $(*)$ has many solutions. So, if $(*)$ has a unique solution, then its derived system’s solution only has a trivial solution.
 
-If the derived system has a non-trivial solution, then we add the non-trivial solution to a solution of $(*)$, and then we get another solution of $(*)$, which means $(*)$ has many solutions. So, if $(*)$ has a unique solution, then its derived system’s solution only has a trivial solution.
+$\Longleftarrow$
+
+The derived system of $(*)$ has only the trivial solution $\Rightarrow$ $k_i = 0 (i=1,2,\cdots,n-r)$ $\Rightarrow$ S = $\set{\gamma_0}$ $\Rightarrow$ $(*)$ has a unique solution.
+
+> If $(*)$ has two different solutions, then the subtraction of them is a non-trivial solution of its derived system. So, if the derived system only has a trivial solution, then $(*)$ has a unique solution.
+
