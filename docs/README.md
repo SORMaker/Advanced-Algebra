@@ -13,6 +13,8 @@
 - [Chapter9 Euclidean Space](Euclidean%20Space.md)
   
 # Usage
+## Github page
+you can click [here](https://sormaker.github.io/Advanced-Algebra/) to see the github page about this repository.
 
 > This is a [Docsify](https://docsify.js.org/#/) generated documentation website.\
 > **We highly recommend you to follow the steps below to view this documentation website.**
