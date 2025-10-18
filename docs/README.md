@@ -13,13 +13,15 @@
 - [Chapter9 Euclidean Space](Euclidean%20Space.md)
   
 # Usage
+
 ## Github page
 you can click [here](https://sormaker.github.io/Advanced-Algebra/) to see the github page about this repository.
 
+## Docsify
 > This is a [Docsify](https://docsify.js.org/#/) generated documentation website.\
 > **We highly recommend you to follow the steps below to view this documentation website.**
 
-## Install Node.js
+### Install Node.js
 1. Go to [Node.js](https://nodejs.org/en/) official website and download the LTS version.
 2. Install Node.js.
 3. Verify the Installation
@@ -34,7 +36,7 @@ you can click [here](https://sormaker.github.io/Advanced-Algebra/) to see the gi
    11.6.1
    ```
 
-## Install Docsify
+### Install Docsify
 1. Open a new terminal.
 2. Run the following command:
    ```bash
@@ -47,7 +49,7 @@ you can click [here](https://sormaker.github.io/Advanced-Algebra/) to see the gi
    # You may see the output.
    4.4.4
    ```
-## Run the Documentation Website
+### Run the Documentation Website
 1. Open a new terminal.
 2. Clone the repository.
    ```bash
