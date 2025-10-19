@@ -1,4 +1,4 @@
-# Chapter4-2
+# Matrix Operations
 
 This section is about the calculation of matrices.
 

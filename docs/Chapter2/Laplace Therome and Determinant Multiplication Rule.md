@@ -1,4 +1,4 @@
-# Chapter2-8
+# Laplace Therome $\cdot$ Determinant Multiplication Rule
 
 ## Definition 9
 

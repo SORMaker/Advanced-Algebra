@@ -1,4 +1,4 @@
-# Chapter3-7
+# System of bivariate polynomial equations
 
 ## Lemma
 

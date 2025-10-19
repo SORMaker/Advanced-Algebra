@@ -1,4 +1,4 @@
-# Chapter5-1
+# Quadratic Form and Its Matrix Representation
 
 $$
 f(x_1, x_2, \cdots , x_n) = a_{11}x_1^2 + 2a_{12}x_1x_2 + \cdots + 2a_{1n}x_1x_n + \\ a_{22}x_2^2 + \cdots + 2a_{2n}x_2x_n + a_{nn}x_n^2

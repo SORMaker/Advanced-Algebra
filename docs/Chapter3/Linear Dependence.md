@@ -1,4 +1,4 @@
-# Chapter3-3
+# Linear Dependence
 
 ## Definition 9
 
@@ -36,8 +36,10 @@ So we can get three properties according to the equivalent of the set of vectors
 Let’s give a quick proof about transitivity:
 
 $$
-\alpha_i = \sum_{j=1}^{s}k_{ij}\beta_{j}, i=1,2,\cdots,t.\\
-\beta_i = \sum_{m=1}^{p}l_{jm}\gamma_{m},j=1,2,\cdots,s.
+\begin{aligned}
+\alpha_i = \sum_{j=1}^{s}k_{ij}\beta_{j}, \quad i=1,2,\cdots,t.\\
+\beta_i = \sum_{m=1}^{p}l_{jm}\gamma_{m}, \quad j=1,2,\cdots,s.
+\end{aligned}
 $$
 
 So:
@@ -119,7 +121,7 @@ a_{12}x_1 + a_{22}x_2 + \cdots + a_{s2}x_s = 0,\\
 \cdots\\
 a_{1n}x_1 + a_{2n}x_2 + \cdots + a_{sn}x_s = 0.\\
 
-\end{array} \right.(1)
+\end{array} \right.\tag{1}
 $$
 
 So, the necessary and sufficient condition for the set of vectors $\alpha_1,\alpha_2,\cdots,\alpha_s$ to be linearly independent is that the homogeneous linear equation system has only non-zero solutions.
@@ -137,7 +139,7 @@ a_{12}x_1 + a_{22}x_2 + \cdots + a_{s2}x_s = 0,\\
 \cdots\\
 a_{1n}x_1 + a_{2n}x_2 + \cdots + a_{sn}x_s = 0,\\
 a_{1,n+1}x_1 + a_{2,n+1}x_2 + \cdots + a_{s,n+1}x_s=0.
-\end{array} \right.(2)
+\end{array} \right.\tag{2}
 $$
 
 Obviously, if the linear equations system $(1)$ only has a zero solution, then the linear equations system  $(2)$﻿  only has a zero solution.

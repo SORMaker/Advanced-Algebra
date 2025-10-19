@@ -1,4 +1,4 @@
-# Chapter4-4
+# Matrix Inverse
 
 Now, let’s move to the inverse of matrices.
 
@@ -33,7 +33,7 @@ d & 0 & \cdots & 0\\
 0 & d & \cdots & 0\\
 \vdots & \vdots & & \vdots\\
 0 & 0 & \cdots & d
- \end{array} \right] = dE,d = |A|.(1)
+ \end{array} \right] = dE,d = |A|.\tag{1}
  $$
 
 $\Longrightarrow$

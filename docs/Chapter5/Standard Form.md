@@ -18,7 +18,7 @@ f(x_1, x_2, \cdots, x_n) = \sum^n_{i=1}\sum^n_{j=1}a_{ij}x_ix_j, \ a_{ij}=a_{ji}
 $$
 There are three cases:
 
-1. $\exist a_{ii} \neq 0$
+1. $\text{exist}\  a_{ii} \neq 0$
    suppose $a_{11} \neq 0$, then we have
    $$
    \begin{split}
@@ -49,7 +49,7 @@ There are three cases:
    f(x_1, x_2, \cdots , x_n) = a_{11}z_1^2 + d_2z_2^2 + d_3z_3^2 + \cdots + d_nz_n^2
    $$
 
-2. $\forall a_{ii}=0, \exist a_{1j} \neq 0$
+2. $\forall a_{ii}=0, \text{exist}\ a_{1j} \neq 0$
    Suppose $a_{12} \neq 0 $, we have a non-degenerate linear substitution:
    $$
    \begin{cases}
@@ -77,7 +77,7 @@ There are three cases:
 ## Theorem 2
 
 Over a field P, every symmetric matrix is congruent to a diagonal matrix.
-$$
+$$x
 A\text{为对称矩阵}\\
 \Rightarrow f(x_1, x_2, \cdots , x_n) = X^TAX \text{为二次型}.\\
 \Rightarrow \text{存在非退化线性替换} X=CZ, \text{将}X^TAX\text{化为}\\

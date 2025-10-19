@@ -1,6 +1,4 @@
-# Chapter3-1
-
-## Elimination method
+# Elimination method
 
 Let me introduce some basic concepts.
 
@@ -12,7 +10,7 @@ a_{11}x_1 + a_{12}x_2 + \cdots + a_{1n}x_n = b_1,\\
 a_{21}x_1 + a_{22}x_2 + \cdots + a_{2n}x_n = b_2, \\
 \cdots \\
 a_{s1}x_1 + a_{s2}x_2 + \cdots + a_{sn}x_n = b_s
-  \end{array} \right.(1)
+  \end{array} \right.\tag{1}
 $$
 
 In these linear equations, we have s equations in n unknowns.
@@ -103,7 +101,7 @@ a_{11}x_1 + a_{12}x_2 + \cdots + a_{1n}x_n = b_1,\\
 a_{21}x_1 + a_{22}x_2 + \cdots + a_{2n}x_n = b_2, \\
 \cdots \\
 a_{s1}x_1 + a_{s2}x_2 + \cdots + a_{sn}x_n = b_s
-  \end{array} \right.(1)
+  \end{array} \right.\tag{1}
 $$
 
 For convenience, we use k times equation 1 and get a new linear equations system:
@@ -114,7 +112,7 @@ ka_{11}x_1 + ka_{12}x_2 + \cdots + ka_{1n}x_n = kb_1,\\
 a_{21}x_1 + a_{22}x_2 + \cdots + a_{2n}x_n = b_2, \\
 \cdots \\
 a_{s1}x_1 + a_{s2}x_2 + \cdots + a_{sn}x_n = b_s
-  \end{array} \right.(2)
+  \end{array} \right.\tag{2}
 $$
 
 Suppose that $(c_1,c_2,\cdots,c_n)$ is a solution of the linear equations system 1. 
@@ -153,7 +151,7 @@ $$
 a_{21}x_1 + a_{22}x_2 + \cdots + a_{2n}x_n = b_2, \\
 \cdots \\
 a_{s1}x_1 + a_{s2}x_2 + \cdots + a_{sn}x_n = b_s
-  \end{array} \right.(3)
+  \end{array} \right.\tag{3}
 $$
 
 $(c_1, c_2, \cdots, c_n)$ is also a solution of $(1)$ and satisfies the last $(s-1)$ equations of $(1)$ and $(3)$.
@@ -217,7 +215,7 @@ $$
         c_{22}x_2 + \cdots + c_{2r}x_r + \cdots + c_{2n}x_n = d_2,\\
         \cdots\\
         c_{nn}x_n=d_n,\\
-         \end{array} \right., c_{ij} \neq 0(i=1,2,\cdots,n )
+         \end{array} \right., \quad c_{ij} \neq 0(i=1,2,\cdots,n )
         $$
         
         According to the last equation, the $x_n$ can be uniquely determined. Then we can use $x_n$ to solve $x_{n-1}$. Finally, we get the unique solution to the system of linear equations.
@@ -225,7 +223,7 @@ $$
     2. $r < n$
         
         $$
-        \begin{cases}c_{11}x_{1}+c_{12}x_{2}+\cdots+c_{1r}x_{r}+c_{1,r+1}x_{r+1}+\cdots+c_{1n}x_{n}=d_{1},\\c_{22}x_{2}+\cdots+c_{2r}x_{r}+c_{2,r+1}x_{r+1}+\cdots+c_{2n}x_{n}=d_{2},\\\cdots\cdots\cdots\cdots\cdots\\c_{rr}x_{r}+c_{r,r+1}x_{r+1}+\cdots+c_{rn}x_{n}=d_{r},&\end{cases},\\c_{ij} \neq 0(i=1,2,\cdots,n )
+        \begin{cases}c_{11}x_{1}+c_{12}x_{2}+\cdots+c_{1r}x_{r}+c_{1,r+1}x_{r+1}+\cdots+c_{1n}x_{n}=d_{1},\\c_{22}x_{2}+\cdots+c_{2r}x_{r}+c_{2,r+1}x_{r+1}+\cdots+c_{2n}x_{n}=d_{2},\\\cdots\cdots\cdots\cdots\cdots\\c_{rr}x_{r}+c_{r,r+1}x_{r+1}+\cdots+c_{rn}x_{n}=d_{r},&\end{cases},\quad c_{ij} \neq 0(i=1,2,\cdots,n )
         $$
         
         We can rewrite the equations:
