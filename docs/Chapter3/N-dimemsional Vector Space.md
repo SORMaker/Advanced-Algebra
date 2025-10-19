@@ -1,13 +1,11 @@
-# Chapter3-2
-
-# n-dimensional vector space
+# N-dimemsional Vector Space
 
 ## Definition 2
 
 The n-dimensional vector on the number field P is an ordered array composed of n numbers in the number field P.
 
 $$
-(a_1, a_2, \cdots, a_n) \qquad \qquad (1)
+(a_1, a_2, \cdots, a_n) \qquad \qquad \tag{1}
 $$
 
 $a_{i}$ is called the components of Vector$(1)$.
@@ -104,9 +102,5 @@ If $k \neq 0, \alpha \neq \mathbf{0}$, then $k\alpha \neq \mathbf{0}.$
 
 The set of all n-dimensional vectors whose components are numbers in the number field P, taking into account the addition and scalar multiplication defined on them, is called an n-dimensional linear space over the number field P.
 
-$\alpha=(a_1, a_2, \cdots, a_n)$ is called a row vector, and $\alpha=\left( \begin{array}{}
-a_1\\
-a_2\\
-\vdots\\
-a_n
- \end{array} \right)$ is called a column vector.
+$\alpha=[a_1, a_2, \cdots, a_n]$ is called a row vector.\
+$\alpha^T$ is called a column vector.

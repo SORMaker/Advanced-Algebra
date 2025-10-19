@@ -1,4 +1,4 @@
-# Chapter4-3
+# Determinant and Rank of a Matrix Product
 
 Let’s introduce some theorems about the multiplication of matrices.
 
@@ -79,11 +79,11 @@ Similarly,
 $$
 A=\begin{bmatrix} 
 A_1 & A_2 & \cdots & A_m
-\end{bmatrix}, C=\begin{bmatrix}
+\end{bmatrix},\quad C=\begin{bmatrix}
 C_1 & C_2 & \cdots & C_s \end{bmatrix}
 $$
 
-So $C_j=\sum^m_{k=1}A_kb_{kj}, j=1,2,\cdots,s.$
+So $C_j=\sum^m_{k=1}A_kb_{kj}, \quad j=1,2,\cdots,s.$
 
 So $R(AB) \leq R(A)$
 

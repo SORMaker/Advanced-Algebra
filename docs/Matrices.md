@@ -1,3 +1,5 @@
-- [Matrix Operations](Chapter4/Chapter4-2.md)
-- [Determinant and Rank of a Matrix Product](Chapter4/Chapter4-3.md)
-- [Matrix Inverse](Chapter4/Chapter4-4.md)
+- [Matrix Operations](Chapter4/Matrix%20Operations.md)
+- [Determinant and Rank of a Matrix Product](Chapter4/Determinant%20and%20Rank%20of%20a%20Matrix%20Product.md)
+- [Matrix Inverse](Chapter4/Matrix%20Inverse.md)
+- [Matrix Partitioning](Chapter4/Matrix%20Partitioning.md)
+- [Elementary Matrix](Chapter4/Elementary%20Matrix.md)

@@ -1,4 +1,4 @@
-# Chapter4-5
+# Matrix Partitioning
 
 Matrix partitioning
 
@@ -6,10 +6,12 @@ Let $A = (a_{ik})_{s \times n}, \ B = (b_{kj})_{n \times m}$ .
 
 We can partition matrices A and B into blocks.
 $$
-\begin{gathered}n_{1}\quad n_{2}\quad\cdots\quad n_{l}\\\mathbf{A}=\begin{array}{c}s_{1}\\s_{2}\\\vdots\\s_{t}\end{array}\begin{bmatrix}\mathbf{A}_{11}&\mathbf{A}_{12}&\cdots&\mathbf{A}_{11}\\\mathbf{A}_{21}&\mathbf{A}_{22}&\cdots&\mathbf{A}_{2l}\\\vdots&\vdots&&\vdots\\\mathbf{A}_{t1}&\mathbf{A}_{t2}&\cdots&\mathbf{A}_{tl}\end{bmatrix},\end{gathered},\\
 \begin{gathered}
-\quad \quad \quad m_{1}\quad m_{2}\quad\cdots\quad m_{r
+\quad \quad \quad n_{1} \quad n_{2}\quad \cdots \quad n_{l
 }\\
+\mathbf{A}=\begin{array}{c}s_{1}\\s_{2}\\\vdots\\s_{t}\end{array}\begin{bmatrix}\mathbf{A}_{11}&\mathbf{A}_{12}&\cdots&\mathbf{A}_{11}\\\mathbf{A}_{21}&\mathbf{A}_{22}&\cdots&\mathbf{A}_{2l}\\\vdots&\vdots&&\vdots\\\mathbf{A}_{t1}&\mathbf{A}_{t2}&\cdots&\mathbf{A}_{tl}\end{bmatrix},\end{gathered}\\
+\begin{gathered}
+\quad \quad \quad m_{1} \quad m_{2} \quad \cdots \quad m_{r}\\
 \mathbf{B}=\begin{array}{c}n_{1}\\n_{2}\\\vdots\\n_{l}\end{array}\begin{bmatrix}\mathbf{B}_{11}&\mathbf{B}_{12}&\cdots&\mathbf{B}_{1r}\\\mathbf{B}_{21}&\mathbf{B}_{22}&\cdots&\mathbf{B}_{2r}\\\vdots&\vdots&&\vdots\\\mathbf{B}_{l1}&\mathbf{B}_{l2}&\cdots&\mathbf{B}_{lr}\end{bmatrix},
 \end{gathered}.
 $$
@@ -19,7 +21,7 @@ $A_{ij}$ are $s_i \times n_j$ matrices and $B_{ij}$ are $n_i \times m_j$ matrice
 So we have $C$.
 $$
 \begin{gathered}
-\quad \quad \quad\quad\quad\quad \quad m_{1} \quad m_{2}\quad\cdots\quad m_{r}\\
+\quad \quad \quad \quad \quad m_{1} \quad m_{2} \quad \cdots \quad m_{r}\\
 \mathbf{C}=\mathbf{AB}=\begin{array}{c}s_{1}\\s_{2}\\\vdots\\s_{t}\end{array}\begin{bmatrix}\mathbf{C}_{11}&\mathbf{C}_{12}&\cdots&\mathbf{C}_{1r}\\\mathbf{C}_{21}&\mathbf{C}_{22}&\cdots&\mathbf{C}_{2r}\\\vdots&\vdots&&\vdots\\\mathbf{C}_{t1}&\mathbf{C}_{t2}&\cdots&\mathbf{C}_{tr}\end{bmatrix},
 \end{gathered}
 $$
