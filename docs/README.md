@@ -7,7 +7,7 @@
 - [Chapter3 System of Linear Equations](System%20of%20Linear%20Equations.md)
 - [Chapter4 Matrices](Matrices.md)
 - [Chapter5 Quadratic Form](Quadratic%20Form.md)
-- [Chapter6 Vector Space](Vector%20Space.md)
+- [Chapter6 Linear Space](Linear%20Space.md)
 - [Chapter7 Linear Transformation](Linear%20Transformation.md)
 - [Chapter8 λ Matrices](λ%20Matrices.md)
 - [Chapter9 Euclidean Space](Euclidean%20Space.md)
