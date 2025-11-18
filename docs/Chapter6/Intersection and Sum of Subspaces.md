@@ -1,8 +1,13 @@
 # Intersection and Sum of Subspaces
 
+> Last lecture, we established the fundamental concepts of linear subspaces, including their definition, properties, and the subspaces spanned by a set of vectors $L(\alpha_1, \alpha_2, \cdots, \alpha_n)$
+> Today, we will focus on the intersection and sum of subspaces, and then we will naturally discuss the dimension formula.
+
+> First, let's see Theorem 5. Theorem 5 states:
+
 ## Th.5
 
-If $V_1,V_2$ are two subspaces of a linear space $V$, then their intersection is also a subspaces of a linear space $V$.
+If $V_1,V_2$ are two subspaces of a linear space $V$, then their intersection is also a subspace of a linear space $V$.
 
 ### Pf.
 
@@ -28,11 +33,13 @@ Then $k\alpha \in V_1$ and $k\alpha \in V_2$.
 
 So $k\alpha \in V_1 \cap V_2$.
 
-There are calculation laws about the intersection of subspaces.
+There are some calculation laws about the intersection of subspaces.
 
 - $V_1 \cap V_2 = V_2 \cap V_1$
 - $(V_1 \cap V_2) \cap V_3 = V_1 \cap (V_2 \cap V_3)$
 - $V_1 \cap V_2 \cap \cdots \cap V_s = \bigcap^s_{i=1}V_i$
+
+> Since we now know the intersection of subspaces. Next, let's consider the sum of subspaces.
 
 ## Def.8
 
@@ -40,6 +47,8 @@ Let $V_1,V_2$ be the subspaces of a linear space $V$. Then the sum of $V_1$ and 
 $$
 V_1 + V_2 = \{ \alpha_1 + \alpha_2| \alpha_1 \in V_1, \alpha_2 \in V_2 \}
 $$
+
+> Theorem 5 states If $V_1$ and $V_2$ are subspaces, then their intersection is a subspace. Similarly, theorem 6 tells us that their sum is also a subspace.
 
 ## Th.6
 
@@ -79,6 +88,8 @@ There are calculation laws about the sum of subspaces.
 - $V_1 + V_2 = V_2 + V_1$
 - $(V_1 + V_2) + V_3 = V_1 + (V_2 + V_3)$
 - $V_1 + V_2 + \cdots + V_s = \sum^s_{i=1}V_i$
+
+> Next, let's see some properties of the intersection and the sum of subspaces.
 
 ## Pt.
 

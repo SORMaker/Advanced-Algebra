@@ -22,7 +22,7 @@ $V \cong V' \Longleftrightarrow \exists \sigma:V \rightarrow V'$ s.t.
 1. $\sigma(0) = 0, \sigma(-\alpha) = -\sigma(\alpha).$
 2. $\sigma(k_1\alpha_1 + \cdots + k_s\alpha_s) = k_1\sigma(\alpha_1) + \cdots + k_s\sigma(\alpha_s).$
 3. A set of vectors $\alpha_1,\cdots, \alpha_s$ in $V$ is linearly dependent(or independent) if and only if their images $\sigma(\alpha_1), \cdots, \sigma(\alpha_s)$ are linearly dependent(or independent) in $V'$.
-4. If $V_1$ is a subspace of $V$, then its image $\sigma(V_1) = \{  \sigma(\alpha)|\alpha \in V_1 \}$ is a subspace of $V'$.
+4. If $V_1$ is a subspace of $V$, then its image $\sigma(V_1) = \{  \sigma(\alpha)|\alpha \in V_1 \}$ is a subspace of $\sigma(V)$. And $dim(V_1) = dim(\sigma(V_1))$.
 5. The inverse mapping $\sigma^{-1}$(from $V'$ to $V$) of an isomorphism is also an isomorphism.
 
 > So, what property is shared by all isomorphic spaces and uniquely identifies them?
@@ -53,7 +53,7 @@ We know that any n-dimensional linear space is isomorphic to $P^n$
 
 So, we established two isomorphisms $\sigma_1:V \rightarrow P^n, \sigma_2:V' \rightarrow P^n$.
 
-Since $V$ and $V'$ are both isomorphic to $P^n$, then we can construct  $\sigma = \sigma_2^{-1}\sigma$ as the isomorphism from $V$ to $V'$.
+Since $V$ and $V'$ are both isomorphic to $P^n$, then we can construct  $\sigma = \sigma_2^{-1}\sigma_1$ as the isomorphism from $V$ to $V'$.
 
 
 

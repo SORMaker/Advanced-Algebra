@@ -1,5 +1,7 @@
 # Direct Sum of Subspaces
 
+> Having discussed the sum of subspaces, we now turn our attention to a special sum of subspaces: the direct sum of subspaces.
+
 ## Def.9
 
 Suppose $V_1, V_2$ are the subspaces of a linear space $V$.
@@ -9,6 +11,8 @@ $$
 \alpha = \alpha_1 + \alpha_2, \quad \alpha_1 \in V_1, \alpha_2 \in V_2.
 $$
 is unique, then this sum is called the direct sum of $V_1$ and $V_2$, denoted as $V_1 \bigoplus V_2$.
+
+> The decomposition of any vector in $V_1 + V_2$ is unique, so it is natural that the decomposition of the zero element is unique.
 
 ## Th.8
 
@@ -38,8 +42,8 @@ $$
 $$
 Therefore, the decomposition of $\alpha$ is unique.
 
-Furthermore, this theorem has an essential corollary that connects the direct sum to the intersection of subspaces.
-
+> Furthermore, this theorem has an essential corollary that connects the direct sum to the intersection of subspaces.
+>
 > This corollary states:
 
 ## Co.1
@@ -121,9 +125,9 @@ According to Theorem 8, this guarantees the sum is a direct sum.
 > 2. Zero intersection.
 > 3. Additive dimensions.
 
-> Now, there is a question: If we are given only one subspace $U$ of linear space $V$, can we always find another subspace $W$, such that $V = U \bigoplus V$.
+> Now, there is a question: If we are given only one subspace $U$ of linear space $V$, can we always find another subspace $W$, such that $V = U \bigoplus W$.
 >
-> Theorem 10 tells us that the answer is yes.
+> Theorem 10 states that the answer is indeed yes.
 
 ## Th.10
 
