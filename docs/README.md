@@ -1,6 +1,7 @@
 # Advanced Algebra
 # References
 北京大学数学系前代数小组. (2019). *高等代数* (第五版). 高等教育出版社. ISBN: 978-7-04-050733-1.
+史荣昌,魏丰. (2010). *矩阵分析* (第三版). 北京理工大学出版社. ISBN: 978-7-5640-3189-3.
 
 # Contents
 - [Chapter2 Determinants](Determinants.md)
