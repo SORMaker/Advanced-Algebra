@@ -136,7 +136,7 @@ Next, we will study the relationship between the operations of linear transforma
 
 ## Th.2
 
-Let $\epsilon_1, \epsilon_2 ,\cdots, \epsilon_n$ be a basis for an n-dimensinal linear space $V$ over the filed $P$.
+Let $\epsilon_1, \epsilon_2 ,\cdots, \epsilon_n$ be a basis for an n-dimensional linear space $V$ over the field $P$.
 
 Under the basis, each linear transformation corresponds to an $n \times n$ matrix. 
 
@@ -196,7 +196,7 @@ $$
    $$
    So, an invertible linear transformation corresponds to the invertible matrix, and the inverse transformation corresponds to the inverse matrix.
 
-Using the matrix of linear transformation, we can directly calculate a image of a matrix.
+Using the matrix of linear transformation, we can directly calculate an image of a vector.
 
 > Theorem 3 states:
 
@@ -237,11 +237,9 @@ Therefore, it is necessary for us to understand how the matrix of a linear trans
 
 ## Th.4
 
-Let $\mathscr{A}$ be a linear transformation in linera space $V$, and let its matrices with respect to the basis $\epsilon_1, \epsilon_2 ,\cdots, \epsilon_n$ and $\eta_1, \eta_2, \cdots, \eta_n$ be $A$ and $B$.
+Let $\mathscr{A}$ be a linear transformation in linear space $V$, and let its matrices with respect to the basis $\epsilon_1, \epsilon_2 ,\cdots, \epsilon_n$ and $\eta_1, \eta_2, \cdots, \eta_n$ be $A$ and $B$.
 
-The transition matrix from $\epsilon_1, \epsilon_2 ,\cdots, \epsilon_n$ to $\eta_1, \eta_2, \cdots, \eta_n$
-
- is $X$.
+The transition matrix from $\epsilon_1, \epsilon_2 ,\cdots, \epsilon_n$ to $\eta_1, \eta_2, \cdots, \eta_n$ is $X$.
 
 Then we have $B = X^{-1}AX$.
 
@@ -272,7 +270,7 @@ Now, we will introduce the definition of similar matrices.
 
 ## Def.3
 
-Let $A,B$ be tow n-th order matrices over the field $P$.
+Let $A,B$ be two n-th order matrices over the field $P$.
 
 If we can find an n-th order invertible matrix $X$, such that $B=X^{-1}AX$, then we say that $A$ is similar to $B$, denoted as $A \sim B$.
 
@@ -294,9 +292,9 @@ Since $A$ and $B$ are similar, $B = X^{-1}AX$.
 
 Let $(\eta_1, \eta_2, \cdots, \eta_n) = (\epsilon_1, \epsilon_2 ,\cdots, \epsilon_n)X$.
 
-Then $\eta_1, \eta_2, \cdots, \eta_n$ is also a set of basis for $V$,  and $B$ is the matrix of $\mathscr{A}$ under this basis.
+Then $\eta_1, \eta_2, \cdots, \eta_n$ is also a set of bases for $V$,  and $B$ is the matrix of $\mathscr{A}$ under this basis.
 
-If $f(x)$ is a polynomial over the number field $P$, and $B = x^{-1}AX$
+If $f(x)$ is a polynomial over the number field $P$, and $B = X^{-1}AX$
 
 Then we have
 $$

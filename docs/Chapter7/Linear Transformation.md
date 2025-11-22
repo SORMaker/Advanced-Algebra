@@ -21,7 +21,7 @@ $$
 
 ## Pt.
 
-First, Let $\mathscr{A}$ is a linear transformation of $V$, then
+First, let $\mathscr{A}$ be a linear transformation of $V$, then
 $$
 \mathscr{A}(0) = 0, \quad \mathscr{A}(-\alpha) = -\mathscr{A}(\alpha).
 $$
