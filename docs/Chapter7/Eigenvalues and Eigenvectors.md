@@ -18,23 +18,23 @@ Then $\lambda_0$ is called an eigenvalue of $\mathscr{A}$, and $\xi$ is called a
 
 We already know what eigenvalues and eigenvectors are, but how do we find them?
 
-Let $V$ be an n-order linear space over a field $P$, $\{\epsilon_i\},\ i = 1,2,\cdots,n$ is a basis for $V$, the matrix of the linear transformation $\mathscr{A}$ with respect to this basis is $A$.
+Let $V$ be an n-dimensional linear space over a field $P$, $\{\epsilon_i\},\ i = 1,2,\cdots,n$ is a basis for $V$, the matrix of the linear transformation $\mathscr{A}$ with respect to this basis is $A$.
 
 Suppose $\lambda_0$ is an eigenvalue, and the coordinates of its eigenvector $\xi$ under the basis $\{ \epsilon_i \}$ are $x_{01}, x_{02}, \cdots, x_{0n}$.
 
-Then the coordinates of $\mathscr{A}\xi$ is 
+Then the coordinates of $\mathscr{A}\xi$ are:
 $$
 A\begin{bmatrix}x_{01}\\x_{02}\\\vdots \\x_{0n} \end{bmatrix}.
 $$
-The coordinates of $\lambda_0\xi$ is 
+The coordinates of $\lambda_0\xi$ are 
 $$
 \lambda_0\begin{bmatrix}x_{01}\\x_{02}\\ \vdots \\x_{0n} \end{bmatrix}.
 $$
-According to definition 4, we know $\mathscr{A}\xi = \lambda_0\xi$, so their coordinates equal.
+According to Definition 4, we know $\mathscr{A}\xi = \lambda_0\xi$, so their coordinates are equal.
 $$
 A\begin{bmatrix}x_{01}\\x_{02}\\\vdots \\x_{0n} \end{bmatrix} = \lambda_0\begin{bmatrix}x_{01}\\x_{02}\\ \vdots \\x_{0n} \end{bmatrix}
 $$
-Rewriten this equation,
+Rewritten this equation,
 $$
 (\lambda_0E - A)\begin{bmatrix} x_{01}\\x_{02}\\ \vdots \\x_{0n} \end{bmatrix} = 0.
 $$
@@ -119,18 +119,18 @@ $$
 $$
 Theorem 6 implies that the characteristic polynomial of a linear transformation is independent of the basis, so we can rightfully speak of 'the characteristic polynomial of the linear transformation'.
 
-Finally, let's see an important property of character polynomial.
+Finally, let's see an important property of the characteristic polynomial.
 
 ## Hamilton-Cayley Theorem
 
-Let $A$ be an $n \times n$ matrix over field $P$, and $f(\lambda) = |\lambda E - A|$ is the characteristic polynomial of $A$, then we have 
+Let $A$ be an $n \times n$ matrix over a field $P$, and $f(\lambda) = |\lambda E - A|$ is the characteristic polynomial of $A$, then we have 
 $$
 f(A) = A^n - (a_{11} + a_{12} + \cdots + a_{nn})A^{n-1} + \cdots + (-1)^n|A|E = 0.
 $$
 
 ### Pf.
 
-Let $B(\lambda)$ be the adjugate matrix of $\lambda E - A$, then according to the property of determinant, we know 
+Let $B(\lambda)$ be the adjugate matrix of $\lambda E - A$, then according to the property of the determinant, we know 
 $$
 B(\lambda)(\lambda E - A) = |\lambda E - A|E = f(\lambda)E.
 $$
@@ -166,7 +166,7 @@ B_{n-1} - B_{n-2}A = a_{n-1}E,\\
 -B_{n-1}A = a_nE.
 \end{cases}
 $$
-We use $A^{n-i}$ multiply the $i + 1$ equation, we get
+We use $A^{n-i}$ to multiply the $i + 1$ equation, we get
 $$
 \begin{cases}
 B_0A^n = EA^n = A^n,\\
@@ -179,7 +179,7 @@ B_{n-1}A - B_{n-2}A^2 = a_{n-1}EA = a_{n-2}A,\\
 $$
 Adding these $n+1$ equations together, the left side becomes zero, and the right side is $f(A)$.
 
-This prove is done.
+This proof is done.
 
 Because the operations on transformations correspond to the operations on their matrices.
 

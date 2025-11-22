@@ -108,15 +108,15 @@ $$
 \end{aligned}
 $$
 
-> Finially, let's discuss the Powers of a linear transformation and the Polynomials of a linear transformation.
+> Finally, let's discuss the Powers of a linear transformation and the Polynomials of a linear transformation.
 
 ## Def.1.4
 
-The k-th power $\mathscr{A}^{k}$ is just $\mathscr{A}$ applied $k$ times. Furthermore, we define $\mathscr{A}^0$ to be the identity transformation $\mathscr{I}$.
+The k-th power $\mathscr{A}^{k}$ is just $\mathscr{A}$ applied $k$ times. Furthermore, we define $\mathscr{A}^0$ to be the identity transformation $\mathscr{E}$.
 
 Once we have powers, we can define polynomials of a linear transformation.
 $$
-f(\mathscr{A}) = a_m\mathscr{A}^m + a_{m-1}\mathscr{A}^{m-1} + \cdots + a_0\mathscr{I}.
+f(\mathscr{A}) = a_m\mathscr{A}^m + a_{m-1}\mathscr{A}^{m-1} + \cdots + a_0\mathscr{E}.
 $$
 It is not difficult to verify that if in the polynomial ring $P[x]$,
 $$
