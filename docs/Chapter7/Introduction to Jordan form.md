@@ -1,4 +1,4 @@
-# Introduction to Jordan form
+# Introduction to Jordan Form
 
 First, let's introduce the Jordan form.
 
