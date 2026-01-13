@@ -17,10 +17,11 @@
 
 ## Github page
 you can click [here](https://sormaker.github.io/Advanced-Algebra/) to see the github page about this repository.
+> **We highly recommend you to view the github page.**
 
 ## Docsify
 > This is a [Docsify](https://docsify.js.org/#/) generated documentation website.\
-> **We highly recommend you to follow the steps below to view this documentation website.**
+
 
 ### Install Node.js
 1. Go to [Node.js](https://nodejs.org/en/) official website and download the LTS version.
